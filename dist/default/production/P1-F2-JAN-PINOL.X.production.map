@@ -1,0 +1,244 @@
+MPLINK 5.09, LINKER
+Linker Map File - Created Tue Nov 26 14:22:37 2024
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000004
+                   .org_2       code   0x000018    program   0x000002
+                   .org_3       code   0x00003a    program   0x000582
+.config_300001_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300001    program   0x000001
+.config_300003_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300003    program   0x000001
+.config_300005_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300005    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x00000b      
+                            0x000018    0x000019      
+                            0x00003a    0x0005bb      
+                            0x300001    0x300001      
+                            0x300003    0x300003      
+                            0x300005    0x300005      
+            1425 out of 8472 program addresses used, program memory utilization is 16%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+     CHANGE_SPEAKER_LEVEL   0x00008e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             CHECK_ANSWER   0x00049a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+      CHECK_ECHO_RECEIVED   0x00036a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        CONFIG_INTERRUPTS   0x000180    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             CONFIG_PORTS   0x000148    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            CONFIG_TIMER0   0x00018c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           COUNT_RSI_17mS   0x00012e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       DISABLE_INTERRUPTS   0x000142    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           DISABLE_TIMER0   0x0001ae    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_0   0x00029c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_1   0x0002a2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_2   0x0002a8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_3   0x0002ae    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_4   0x0002b4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_5   0x0002ba    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_6   0x0002c0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_14   0x0003c8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_21   0x0003d4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_28   0x0003e0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_35   0x0003ec    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_42   0x0003f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_50   0x000404    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               DISTANCE_7   0x0003bc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+  ECHO_STILL_NOT_RECEIVED   0x000368    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         ENABLE_INTERRUTS   0x00013c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            ENABLE_TIMER0   0x0001aa    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        END_HANDLE_ANSWER   0x0004cc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          END_HANDLE_NOTE   0x000432    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     END_PROCESS_DISTANCE   0x000410    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         END_RSI_COUNT_3S   0x0000fa    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+      END_RSI_COUNT_500mS   0x0000d6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     END_RSI_COUNT_LENGTH   0x00011a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                END_SERVO   0x00013a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                GAME_OVER   0x000586    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            HANDLE_ANSWER   0x0004be    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_NEW_NOTE   0x000216    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              HANDLE_NOTE   0x000412    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_RSI_ECHO   0x00006e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_RSI_NOTE   0x0000ac    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         HANDLE_RSI_SERVO   0x00011c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       HANDLE_RSI_SPEAKER   0x000078    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             HANDLE_SERVO   0x0001b2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        HANDLE_START_GAME   0x00056a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         HANDLE_ULTRASONS   0x00034a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                 HIGH_RSI   0x00004a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        INCREMENT_COUNTER   0x00008a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                 INIT_RAM   0x000526    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               INIT_SERVO   0x000530    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           INIT_VARS_MAIN   0x0004f2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     INIT_VARS_START_GAME   0x0004f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                     LOOP   0x0005ac    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                     MAIN   0x000598    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   PROCESS_CORRECT_ANSWER   0x0004e0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         PROCESS_DISTANCE   0x000372    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+ PROCESS_INCORRECT_ANSWER   0x0004ea    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+PROCESS_TIME_TO_SUBTRACT_SERVO   0x000204    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           RESET_COUNT_3S   0x0004b2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       RESET_COUNT_3S_LOW   0x0000f2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        RESET_COUNT_500mS   0x0004a6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+    RESET_COUNT_500mS_LOW   0x0000d2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   RESET_COUNT_LENGTH_LOW   0x000112    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             RESET_TIMER0   0x0001a0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              RESUME_GAME   0x000568    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       RESUME_HANDLE_NOTE   0x00041e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             RSI_COUNT_3S   0x0000d8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          RSI_COUNT_500mS   0x0000ba    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         RSI_COUNT_LENGTH   0x0000fc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               RSI_TIMER0   0x000052    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_1   0x000476    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_2   0x000482    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_3   0x00048e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_DO   0x0001cc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_FA   0x0001e4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_LA   0x0001f4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_MI   0x0001dc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_RE   0x0001d4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_SI   0x0001fc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                  SET_SOL   0x0001ec    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   SHOW_CURRENT_NOTE_7SEG   0x00024e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         SHOW_LENGTH_LEDS   0x0002c6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            SHOW_RAM_INFO   0x00022c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             SPEAKER_HIGH   0x00009c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              SPEAKER_LOW   0x0000a4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           START_COUNT_3S   0x000434    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         START_COUNT_NOTE   0x000444    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               START_GAME   0x00054a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          START_GAME_LOOP   0x00057a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                WAIT_10uS   0x0002d8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                WAIT_17mS   0x000304    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                 WAIT_1mS   0x0002f4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               WAIT_500uS   0x0002e4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           WAIT_LOOP_10uS   0x0002dc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           WAIT_LOOP_17mS   0x000308    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            WAIT_LOOP_1mS   0x0002f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          WAIT_LOOP_500uS   0x0002e8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     WAIT_LOOP_SERVO_DOWN   0x000338    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   WAIT_LOOP_SERVO_DOWN_2   0x000334    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       WAIT_LOOP_SERVO_UP   0x00031c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     WAIT_LOOP_SERVO_UP_2   0x000318    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          WAIT_SERVO_DOWN   0x00032e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            WAIT_SERVO_UP   0x000314    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                 HIGH_RSI   0x00004a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               RSI_TIMER0   0x000052    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_RSI_ECHO   0x00006e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       HANDLE_RSI_SPEAKER   0x000078    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        INCREMENT_COUNTER   0x00008a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     CHANGE_SPEAKER_LEVEL   0x00008e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             SPEAKER_HIGH   0x00009c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              SPEAKER_LOW   0x0000a4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_RSI_NOTE   0x0000ac    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          RSI_COUNT_500mS   0x0000ba    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+    RESET_COUNT_500mS_LOW   0x0000d2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+      END_RSI_COUNT_500mS   0x0000d6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             RSI_COUNT_3S   0x0000d8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       RESET_COUNT_3S_LOW   0x0000f2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         END_RSI_COUNT_3S   0x0000fa    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         RSI_COUNT_LENGTH   0x0000fc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   RESET_COUNT_LENGTH_LOW   0x000112    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     END_RSI_COUNT_LENGTH   0x00011a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         HANDLE_RSI_SERVO   0x00011c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           COUNT_RSI_17mS   0x00012e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                END_SERVO   0x00013a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         ENABLE_INTERRUTS   0x00013c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       DISABLE_INTERRUPTS   0x000142    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             CONFIG_PORTS   0x000148    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        CONFIG_INTERRUPTS   0x000180    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            CONFIG_TIMER0   0x00018c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             RESET_TIMER0   0x0001a0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            ENABLE_TIMER0   0x0001aa    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           DISABLE_TIMER0   0x0001ae    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             HANDLE_SERVO   0x0001b2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_DO   0x0001cc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_RE   0x0001d4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_MI   0x0001dc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_FA   0x0001e4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                  SET_SOL   0x0001ec    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_LA   0x0001f4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                   SET_SI   0x0001fc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+PROCESS_TIME_TO_SUBTRACT_SERVO   0x000204    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          HANDLE_NEW_NOTE   0x000216    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            SHOW_RAM_INFO   0x00022c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   SHOW_CURRENT_NOTE_7SEG   0x00024e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_0   0x00029c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_1   0x0002a2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_2   0x0002a8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_3   0x0002ae    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_4   0x0002b4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_5   0x0002ba    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                DISPLAY_6   0x0002c0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         SHOW_LENGTH_LEDS   0x0002c6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                WAIT_10uS   0x0002d8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           WAIT_LOOP_10uS   0x0002dc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               WAIT_500uS   0x0002e4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          WAIT_LOOP_500uS   0x0002e8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                 WAIT_1mS   0x0002f4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            WAIT_LOOP_1mS   0x0002f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                WAIT_17mS   0x000304    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           WAIT_LOOP_17mS   0x000308    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            WAIT_SERVO_UP   0x000314    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     WAIT_LOOP_SERVO_UP_2   0x000318    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       WAIT_LOOP_SERVO_UP   0x00031c    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          WAIT_SERVO_DOWN   0x00032e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   WAIT_LOOP_SERVO_DOWN_2   0x000334    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     WAIT_LOOP_SERVO_DOWN   0x000338    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         HANDLE_ULTRASONS   0x00034a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+  ECHO_STILL_NOT_RECEIVED   0x000368    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+      CHECK_ECHO_RECEIVED   0x00036a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         PROCESS_DISTANCE   0x000372    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               DISTANCE_7   0x0003bc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_14   0x0003c8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_21   0x0003d4    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_28   0x0003e0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_35   0x0003ec    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_42   0x0003f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              DISTANCE_50   0x000404    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     END_PROCESS_DISTANCE   0x000410    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              HANDLE_NOTE   0x000412    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+       RESUME_HANDLE_NOTE   0x00041e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          END_HANDLE_NOTE   0x000432    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           START_COUNT_3S   0x000434    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+         START_COUNT_NOTE   0x000444    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_1   0x000476    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_2   0x000482    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     SET_COUNT_DURATION_3   0x00048e    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+             CHECK_ANSWER   0x00049a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        RESET_COUNT_500mS   0x0004a6    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           RESET_COUNT_3S   0x0004b2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+            HANDLE_ANSWER   0x0004be    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        END_HANDLE_ANSWER   0x0004cc    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+   PROCESS_CORRECT_ANSWER   0x0004e0    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+ PROCESS_INCORRECT_ANSWER   0x0004ea    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+           INIT_VARS_MAIN   0x0004f2    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+     INIT_VARS_START_GAME   0x0004f8    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                 INIT_RAM   0x000526    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               INIT_SERVO   0x000530    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+               START_GAME   0x00054a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+              RESUME_GAME   0x000568    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+        HANDLE_START_GAME   0x00056a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+          START_GAME_LOOP   0x00057a    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                GAME_OVER   0x000586    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                     MAIN   0x000598    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+                     LOOP   0x0005ac    program     static C:\Users\theco\Desktop\4t JAN\COMPUS\1r sem\practica 1\fase 2\P1-F2-JAN-PINOL.X\main.asm
+
+
